@@ -1,0 +1,237 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: black;
+    font-family: "Taviraj", sans-serif;
+    color: silver;
+
+}
+
+.link-header h1{
+    font-size: 35px;
+    color: white;
+    border:  5px solid red;
+    border-radius: 15px;
+}
+h1:hover{
+    color: blue;
+    transition: 0,8s ease-in-out;
+    font-size: 38px;
+
+}
+
+section {
+    text-align: center;
+    font-size: 20px;
+    color: yellow;
+
+
+}
+section .endereço {
+    color: yellow;
+}
+section h2:hover {
+    color:lime;
+    transition: 0,8s ease-in-out;
+    font-size: 35px;
+    align-self: center;
+}
+section p {
+    display: flex;
+    color: rgb(111, 7, 230);
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px;
+    height: 50vh;
+    font-size: 10px;
+        
+}
+section p:hover {
+    color: white;
+    font-size: 15px;
+    transition: 3s ease-in-out;
+    
+}
+section .horario{
+    font-size: 38px;
+    color: red;
+}
+.segue {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.segue:hover {
+    font-size: 30px;
+    color: red;
+    transition: 0,8s ease-in-out;
+}
+.logo-peniel {
+    width: 200px;
+    height: 180px;
+    margin-left: 90px;
+}
+.logo-dunamis {
+    width: 200px;
+    height: 180px;
+    margin-left: 900px;
+    margin-top: -340px;
+
+}
+.logo-youtube {
+    width: 100px;
+    height: 80px;  
+    background-color: white;
+    border-radius: 35px;
+    margin-left: 150px;
+    margin-top: -600px;
+}
+.logo-insta {
+    width: 100px;
+    height: 80px;
+    border-radius: 35px;
+    margin-left: 100px;
+    margin-top: -800px;
+    
+}  
+
+.link-header {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    margin: 25px;
+    
+}
+.link-header a {
+    color: yellow;
+    font-size: 18px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.link-header a:hover {
+    color: white;
+    font-size: 22px;
+    transition: 0,6s ease-in-out;
+    cursor: pointer;
+    font-weight: bold;
+}
+.informação-principal {
+    width: 50%;
+    margin-left: 500px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+.endereço p {
+    font-size: 30px;
+    color: blue;
+}
+.endereço p:hover {
+    font-size: 35px;
+    color: yellow;
+    transition: 0,6s ease-in-out;
+
+   
+}
+.pedido-de-oração {
+    margin-left: 550px;
+    margin-top: -600px;
+    font-size: 13px ;
+    border-radius: 10px;
+    background: yellow;
+    color: red;
+    width: 95px;
+    height: 75px;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+ button:hover {
+    font-size: 15px;
+    color: blue;
+    transition: 1s ease-in-out;
+}
+
+.formulario-fale-conosco {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: fixed;
+    top: 50%;
+    left: -325px;
+    padding: 20px;
+    border-radius: 8px;
+    width: 330px;
+    height: 280px;
+
+
+}
+input {
+    background-color: white;
+    height: 35px;
+    border-radius: 7px;
+    border: 1px solid black;
+    padding-left: 05px;
+    outline-color: blue;
+    color: black s;
+    
+}
+
+textarea {
+    background-color: white;
+    width: 291px;
+    height: 150px;
+    border-radius: 7px;
+    border: 1px solid black;
+    padding-left: 05px;
+    outline-color: green;
+    padding-top: 8px;
+    color: blue ;
+}
+    
+
+
+.botao-formulario {
+    background-color: blue;
+    color: black ;
+    font-size: 20px ;
+    border-radius: 8px;
+    padding: 15px;
+}
+.botao-formulario:hover {
+    font-size: 25px;
+    color: yellow ;
+}
+.imagem-lideres {
+    width: 200px;
+    height: 300px;
+    margin-left: 1340px;
+}
+
+.footer img {
+    width: 80px;
+    height: 60px;
+    margin-left: 1280px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    
+     
+}
+.footer h3 {
+    margin-top: 30px;
+    margin-left: 40%;
+    font-size: 9px;
+    color: blue;
+    
+}
+.footer h3:hover {
+    font-size: 11px;
+    transition: 0.8s ;
+    color: whitesmoke;
+}
